@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main-body {
+    margin: auto;
+}
+
+.form-container {
+    border: 2px solid red;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.form-content {
+    padding: 7px;
+}
+
+.form-body {
+    height: 509px;
+    width: 796px;
+    top: -220px;
+    left: -425px;
+    border: 2px solid whitesmoke;
+    background-color: white;
+    margin: auto;
+}
+
+input {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.first-top-div {
+    margin-top: 10px;
+    display: flex;
+    gap: 7px;
+}
+
+.input-div {
+    position: relative;
+}
+
+.account-input {
+    width: 100px;
+    height: 37px;
+}
+
+.instructiontype-input {
+    display: inline-block;
+    width: 300px;
+    height: 37px;
+}
+
+.gbs-div {
+    margin-top: 4px;
+}
+
+.gbsscreen-input {
+    margin-top: 2px;
+    height: 37px;
+}
+
+.gbs-content-div {
+    position: relative;
+    margin-top: 3px;
+    height: 37px;
+}
+
+#signature {
+    margin-top: -25px;
+    margin-left: 4px;
+}
+
+
+/* information box styling */
+.info2 {
+    margin-top: 10px;
+}
+
+.info2-content {
+    width: 250px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.reference-div-content1 {
+    width: 313px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.reference-div-content2 {
+    width: 313px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.refernce-input:focus {
+    outline: none;
+}
+
+.status-div {
+    width: 310px;
+}
+
+#refernce-input {
+    border: 0;
+    height: 10px;
+}
+
+.label-names {
+    position: absolute;
+    top: -5px; 
+    left: 7px; 
+    background-color: white; 
+    padding: 0 3px; 
+    margin: 0; 
+}
+
+.label-names2 {
+    position: absolute;
+    top: -7px; 
+    left: 7px; 
+    background-color: white; 
+    padding: 0 3px; 
+}
+
+.progress-box {
+    width: 200px; 
+    height: 20px; 
+    border: 1px solid #ccc;
+    padding: 1px;
+    overflow: hidden; 
+  }
+  
+.progress-bar {
+    width: 0%; 
+    height: 100%;
+    display: flex;
+}
+  
+.progress-box-item {
+    flex: 1;
+    background-color: #034694; 
+    margin: 0 1px;
+    transition: background-color 0.5s ease-in-out; 
+}
+
+p {
+    margin-left: 2px;
+}
